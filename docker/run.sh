@@ -1,0 +1,1 @@
+docker run -d -it -p 80:80 -p 3306:3306 -p 15672:15672 --name learning --mount type=bind,source=$(pwd),target=/var/www/learning learning
